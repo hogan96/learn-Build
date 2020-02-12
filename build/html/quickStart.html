@@ -86,11 +86,11 @@
 <li class="toctree-l2"><a class="reference internal" href="#python">安装python</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id1">安装sphinx并且快速构建一个文档</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id2">改变文档样式</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">了解如何编写文档</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">快速了解文档规则</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="useMarkdown.html">使用Markdown来编写文档</a></li>
-<li class="toctree-l1"><a class="reference internal" href="github.html">使用github管理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="github.html">Github托管代码</a></li>
 </ul>
 
             
@@ -207,10 +207,11 @@ span.prompt1:before {
 </ul>
 </div>
 <div class="section" id="id3">
-<h2>了解如何编写文档<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<h2>快速了解文档规则<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p>文档的编写默认是支持reStructuredText语言，也可以通过加载插件的方式支持markdown，但我个人推荐使用reStructuredText，因为它的使用更灵活，方式更多样,但同时也比较复杂。`
 语法参照 <a class="reference external" href="http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html">syntax</a></p>
-<p>文档内容放置在source/文件夹下即可，文档的入口是index.rst，同时在index.rst中我们也</p>
+<p>文档内容放置在source/文件夹下即可，文档的入口是index.rst(也就是说打开文档右侧显示的内容就是index.rst，与此同时左侧的目录也是由index.rst文件中配置生成，具体可以参照本文档的github)。
+其次是在index.rst中我们也可以嵌套其他的index.rst，但他们不能位于同一个目录级。</p>
 </div>
 </div>
 
