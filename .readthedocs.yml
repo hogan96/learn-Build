@@ -1,6 +1,3 @@
 version: 2
-requirements_file: requirements.txt
-build:
-  image: latest
 sphinx:
   configuration: source/conf.py
