@@ -41,14 +41,24 @@
 
 .. image:: _static/images/s7.png  
 
-改变文档样式
+配置文件修改
 -------------------------------------
+
+1.更改样式 
 
 - 将原本的'alabaster'替换成'sphinx_rtd_theme'
 
 .. image:: _static/images/s8.png 
 
-- 再次`make html`构建文档，可见样式和learn一样了
+- 再次`make html`构建文档，可见样式和learn一样了  
+
+2.添加两行代码，确保后续构建没问题  
+
+.. prompt:: bash $
+
+   source_suffix = ['.rst', '.md']  
+   master_doc = 'index'  
+
 
 快速了解文档规则
 --------------------------------------  
